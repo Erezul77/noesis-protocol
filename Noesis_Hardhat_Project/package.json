@@ -1,0 +1,14 @@
+
+{
+  "name": "noesis-hardhat",
+  "version": "1.0.0",
+  "description": "Hardhat project for Noēsis Protocol",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.17.0"
+  }
+}
